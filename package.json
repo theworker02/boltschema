@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/boltschema",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bolt identifiers and schema tokens for idempotent workflows.",
+  "bin": {
+    "boltschema": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/boltschema.git"
+  },
+  "homepage": "https://theworker02.github.io/boltschema/",
+  "keywords": [
+    "bolt",
+    "schema",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
